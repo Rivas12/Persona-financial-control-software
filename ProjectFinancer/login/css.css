@@ -1,0 +1,82 @@
+body{
+    background: url('https://miro.medium.com/max/3200/0*wUbJjPFh9sUc7HxK');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 30%;
+    height: 70%;
+    border: 1px solid white;
+    border-radius: 16px 0 16px 0;
+    display: block;
+    vertical-align: middle;
+    transform: translate(-50%, -50%);
+    background: white;
+    box-shadow: 10px 10px blue;
+}
+form{
+    margin: 50% 0;
+    transform: translateY(-50%);
+}
+
+.form{
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    top: 50%;
+    vertical-align: middle;
+}
+
+form input#inputusuario{
+    margin-top: 30px !important;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/7/70/User_icon_BLACK-01.png');
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+}
+form input#inputsenha{
+    background-image: url('https://cdn4.iconfinder.com/data/icons/glyphs/24/icons_password-512.png');
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-size: 40px 40px;
+    background-position-x: 8px;
+}
+form input[type=text], form input[type=password]{
+    font-size: 30px;
+    margin-top: 10px;
+    width: 80%;
+    border-radius: 5px;
+    padding: 20px 0 20px 50px;
+    box-shadow: 2px 4px 18px #888888;
+    font-family: 'Consolas, Courier New, monospace';
+    border: 2px solid transparent ;;
+}
+form input[type=text]:focus, form input[type=password]:focus{
+    outline: none !important;
+    border: 2px solid red !important;
+}
+form input[type=submit]{
+    margin-top: 10px;
+    padding: 20px 40px;
+    justify-content: center;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    font-family: Nunito Sans,sans-serif;
+    cursor: pointer;
+    justify-content: center;
+    font-size: 22px;
+    background: crimson;
+    border: none;
+    border-radius: 10px;
+    line-height: 22px;
+    transition: all 0.2s ease-in-out 0s;
+    color: #fff;
+}
+form input[type=submit]:hover{
+    background: rgb(143, 13, 39);
+}
